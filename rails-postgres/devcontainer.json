@@ -1,0 +1,9 @@
+{
+  "name": "Ruby on Rails & Postgres",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+
+  "forwardPorts": [3000],
+
+  "postCreateCommand": "bash .devcontainer/postcreate.sh"
+}
