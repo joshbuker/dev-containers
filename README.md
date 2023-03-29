@@ -23,3 +23,11 @@ For example, to map `~/linux` on the host to `/linux/kernel` on the container:
   "source=${localEnv:HOME}${localEnv:USERPROFILE}/linux,target=/linux/kernel,type=bind,consistency=cached"
 ],
 ```
+
+Or map from the project root:
+
+```json
+"mounts": [
+  "source=${localWorkspaceFolder}/.config/.wrangler,target=/home/node/.config/.wrangler,type=bind,consistency=cached"
+],
+```
