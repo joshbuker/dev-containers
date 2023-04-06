@@ -57,6 +57,6 @@ Or map from the project root:
 
 Some applications may require a dependency such as `imagemagick`. Add the following to the Dockerfile, replacing `imagemagick` with your required dependencies:
 
-```Docker
+```Dockerfile
 RUN apt-get update && apt-get install -y imagemagick
 ```
