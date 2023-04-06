@@ -11,6 +11,13 @@ Add the following to your `devcontainer.json` file:
 "runArgs": ["--env-file",".env"],
 ```
 
+Or if you're using docker-compose, add the following under `app:`:
+
+```yaml
+env_file:
+  - ../.env
+```
+
 This will use the `.env` file in your project root for importing env variables.
 
 ## mounting a local folder
