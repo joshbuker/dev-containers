@@ -2,6 +2,20 @@
 
 Default dev container configs for quickly adding dev container support to a new project.
 
+## Available features
+
+https://containers.dev/features
+
+Add with:
+
+```json
+"features": {
+  "<feature_goes_here>": {
+    "version": "latest"
+  }
+}
+```
+
 ## `.env` configuration
 
 Add the following to your `devcontainer.json` file:
