@@ -2,6 +2,10 @@
 
 Default dev container configs for quickly adding dev container support to a new project.
 
+## Location
+
+Place these files within a `.devcontainer` folder at the root level of your project (the level where you'll be opening VS Code).
+
 ## Available features
 
 https://containers.dev/features
